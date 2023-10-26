@@ -44,8 +44,8 @@ To get the project up and running, follow these steps:
 
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/your-username/3-tier-architecture-project.git
-   cd two-tier-architecture-project
+   git clone https://github.com/muhammadunaisak/mern_blog.git
+   cd mern_blog
    ```
 
 2. **Install Dependencies:**
