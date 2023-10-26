@@ -70,10 +70,4 @@ To get the project up and running, follow these steps:
 5. **Access the Application:**
    - Open a web browser and navigate to `http://localhost:3000` to access the client application.
 
-## Additional Features
 
-This project provides a basic implementation of a two-tier architecture. You can extend it by adding the following features:
-
-- User authentication for secure record management.
-- Enhanced user interface with more interactive components.
-- Validation and error handling for a production-ready application.
