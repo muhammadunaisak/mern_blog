@@ -1,73 +1,70 @@
-# mern_blog
-Simple blogging application 
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This repository contains a sample project implementing a three-tier architecture. The three-tier architecture, also known as client-server-database architecture, divides an application into three parts: the client , the server and database. In this project, we have implemented a simple web application using React for the client (front-end) and Node.js with MongoDB for the server (back-end).
+## Available Scripts
 
-Login & Register
+In the project directory, you can run:
 
-![image](https://github.com/muhammadunaisak/mern_blog/assets/84447232/565aa6a9-6c81-48ed-b7c9-f07a5ae02cdd)<br><br>
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-home page<br>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-![image](https://github.com/muhammadunaisak/mern_blog/assets/84447232/44c8b61e-0b6f-464c-aae0-26fe7bf81ad6)
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Project Overview
+### `npm run build`
 
-The project consists of two main components:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. **Client (Front-end)**: Built with React
-   - Allows users to interact with the application through a web interface.
-   - Provides a user-friendly way to create, update, and view records.
-   - Utilizes the MERN (MongoDB, Express.js, React, Node.js) stack for front-end development.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-2. **Server (Back-end)**: Built with Node.js and MongoDB
-   - Handles data storage, retrieval, and manipulation.
-   - Implements RESTful API endpoints for record management (create, read, update, delete).
-   - Uses MongoDB as the database to store records.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Project Structure
+### `npm run eject`
 
-- `client/`: Contains the React front-end code.
-- `server/`: Contains the Node.js back-end code.
-- `server/db/`: Database connection configuration.
-- `server/models/`: MongoDB data models.
-- `server/routes/`: Express.js routes for API endpoints.
-- `public/`: Static assets like images.
-- `README.md`: This project documentation.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Getting Started
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-To get the project up and running, follow these steps:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1. **Clone the Repository:**
-   ```sh
-   git clone https://github.com/muhammadunaisak/mern_blog.git
-   cd mern_blog
-   ```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-2. **Install Dependencies:**
-   - Navigate to the `client/` and `server/` directories and run:
-     ```sh
-     npm install
-     ```
+## Learn More
 
-3. **Set Up Environment Variables:**
-   - Create a `.env` file in the `server/` directory and define your MongoDB connection string.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-4. **Start the Client and Server:**
-   - In the `client/` directory, run:
-     ```sh
-     npm start
-     ```
-   - In the `server/` directory, run:
-     ```sh
-     npm start
-     ```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-5. **Access the Application:**
-   - Open a web browser and navigate to `http://localhost:3000` to access the client application.
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
